@@ -1,7 +1,4 @@
-:root {
-    --header-color: #01a3a4;
-    --bg-color: #eee;
-}
+
 
 * {
     font-family: sans-serif;
@@ -9,10 +6,12 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    color: rgb(255, 255, 255);
 }
 
 body {
-    background-color: var(--bg-color);;
+    height: 100vh;
+    background-image: linear-gradient(red, rgb(0, 0, 255));
 }
 
 .container {
@@ -22,7 +21,7 @@ body {
 }
 
 header {
-    background-color: var(--header-color);
+    background-image: linear-gradient(rgb(30, 0, 255),rgba(255, 0, 0, 0.742), rgba(255, 0, 0, 0.071));
     text-align: center;
     height: 30vh;
 }
@@ -49,8 +48,10 @@ header .container {
 }
 
 .profile-link {
-    background-color: var(--header-color);
-    color: var(--bg-color);
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
     padding: 8px 16px;
     display: inline-block;
     margin-top: 24px;
